@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <title>サンプルウェブページ</title>
+    <style>
+        body {
+            background-color: #f5f5f5;
+            font-family: Arial, sans-serif;
+        }
+
+        #main-heading {
+            text-align: center;
+        }
+
+        #left-div {
+            float: left;
+            width: 30%;
+        }
+
+        #right-div {
+            float: right;
+            width: 65%;
+        }
+
+        img:hover {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 id="main-heading">メインヘッダー</h1>
+    <h2>サブヘッダー</h2>
+
+    <div id="left-div">
+        <p><strong>太字</strong>、<em>イタリック</em>、<u>下線</u>のテキスト。</p>
+        <p style="font-family: 'Times New Roman', Times, serif; color: red; font-size: 20px;">異なるフォント、色、サイズのテキスト。</p>
+
+        <a href="home.html">ページ内のセクションへのリンク</a><br>
+        <a href="https://www.google.com" target="_blank">外部ウェブサイトへのリンク</a><br>
+        <a href="mailto:example@example.com">メールを送る</a>
+
+        <hr>
+
+        <ol>
+            <li>順序付きリストのアイテム1</li>
+            <li>順序付きリストのアイテム2</li>
+        </ol>
+
+        <ul>
+            <li>順序なしリストのアイテム1</li>
+            <li>順序なしリストのアイテム2</li>
+        </ul>
+    </div>
+
+    <div id="right-div">
+        <img src="img_avatar2.png" alt="画像の説明" width="200" height="150" title="ホバー時の説明" onclick="window.location.href='https://www.google.com'">
+
+        <hr>
+
+        <div id="section-link">
+            <h3>ページ内のセクション</h3>
+            <p>ここはページ内のセクションの内容です。<br>必要に応じて改行を使用します。</p>
+        </div>
+    </div>
+
+    <div style="clear: both;"></div>
+
+</body>
+
+</html>
+
